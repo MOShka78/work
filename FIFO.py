@@ -62,6 +62,8 @@ print("--- %s seconds Ver. 2 ---" % (time.time() - start_time))
 
 # Почитав документацию deque понял, что он будет хорошим конструктором для создания буфера FIFO
 
+
+# Ver. 3.0
 class Fifo_2(object):
 
     def __init__(self, buffer_size):
